@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Loginpage</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style type="text/css">
+  	*{  box-sizing: border-box;
+  		margin :0px;
+  		padding:0px;
+  	}
+  	.bdy{
+  		
+  		 background-color:#5b7e96;
+  	}
+  	.container{
+  		margin: auto;
+  		position:relative;
+  		top:10vw;
+  		height:25vw;
+  		width:28vw;
+  		background-color:#5b7e96;
+  	}	
+  	.span1{
+  	 position: absolute;
+        top:16.5vw;
+        left:2.5vw;
+  	}
+  	.span2{
+  	 position: absolute;
+        top:20vw;
+        left:2.5vw;
+  	}
+@media screen and (max-width:959px){
+  .bdy{
+      
+       background-color:#5b7e96;
+     }
+	  .container {
+    margin: auto;
+    position: relative;
+    top:27vw;
+    height: 216vw;
+    width: 101vw;
+}
+    .form-group{
+    	width:100%;
+    }
+
+ .btn{
+     width: 84vw;
+ }
+ .span2 {
+ 	display: none;
+    position: absolute;
+    top:48vh;
+    left: 33vw;
+}
+  	.span1{
+    position: absolute;
+    top: 45.5vw;
+    left: 9vw;
+    }
+  	}
+
+  	/*@media screen and (min-width:1020px){
+	
+  	.bdy{
+  		
+  		background-color:yellow;
+  	}
+  	.container{
+  		margin: auto;
+  		position:relative;
+  		top:10vw;
+  		height:25vw;
+  		width:28vw;
+  		background-color:#5b7e96;
+  	}	
+  	.span1{
+  	 position: absolute;
+        top:21vw;
+        left:2.5vw;
+  	}
+  	.span2{
+  	 position: absolute;
+        top:26.4vw;
+        left:2.5vw;
+  	}
+}
+
+  </style>
+  
+</head>
+<body class="bdy">
+ <div class="container">
+ 	<div class="row-md-1"></div>
+ 	<div class="col-md-12 col-sm-3 col-md-6">
+ 	 <div class="form-group text-white">
+         <label for="usr">Username:</label>
+         <input type="text" class="form-control w-77vw" id="usr" name="username">
+    </div>
+            <div class="form-group text-white">
+               <label for="pwd">Password:</label>
+               <input type="password" class="form-control w-77vw" id="pwd" name="password">
+            </div>
+ 	                 </div>
+ 	               <br>
+ 	 	           <div class="clearfix">
+ 	 	           	<div class="form-group text-white">
+ 	                    
+                       <label class="span1"><input type="checkbox" name="Remember me" > Remember me</label>
+
+                        <button type="Submit" class="btn btn-success float-right mr-3 ">Submit</button> 
+ 	            </div>
+ 	            </div>
+                      
+ 	                    <div class="clearfix">
+ 	                    	<div class="form-group text-white">
+ 	                     <label class="span2">Forget password</label>
+ 	                     <button type="login" class="btn btn-primary float-right mr-3">Login</button>
+ 	                     </div>
+ 	                 </div>
+
+ </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
